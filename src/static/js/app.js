@@ -1,8 +1,11 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+
         <Container>
-            <Header name="Yudai Mine" />
+            <div style={{ textAlign: 'center', padding: '10px 0', fontSize: '24px', fontWeight: 'bold' }}>
+                Yudai Mine
+            </div>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
